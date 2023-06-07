@@ -17,10 +17,10 @@ var removeElement=function(nums,val){
     for(let i=0;i<=nums.length-1;i++){
         if(nums[i] !==val){
             nums[count]=nums[i]
-            count++
+        count++
         }
     }
-    return count
+    return nums
 }
 
 let nums = [3,2,2,3]
